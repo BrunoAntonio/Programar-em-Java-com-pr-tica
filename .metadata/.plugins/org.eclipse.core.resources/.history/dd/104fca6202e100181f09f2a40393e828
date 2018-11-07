@@ -1,0 +1,16 @@
+package application;
+
+import entities.Numero;
+
+public class Program {
+	public static void main(String[] args) {
+
+		int[] numero = new int[10];
+
+		for (int i = 1; i < numero.length; i++) {
+			numero[i]= i+1;
+			System.out.print(numero[i]);
+		}
+	}
+
+}

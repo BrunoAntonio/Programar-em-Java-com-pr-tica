@@ -1,0 +1,20 @@
+package application;
+
+import entities.Fornecedor;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Fornecedor const1 =new Fornecedor("Ana", "91090", "Porto","Couves");
+		Fornecedor const2 =new Fornecedor("Rita", "91091","Batatas");
+		Fornecedor const3 =new Fornecedor("Bruno", "91092");
+		
+		const3.setTipoProduto("alface");
+		
+		System.out.println(const1.toString());
+		System.out.println(const2.toString());
+		System.out.println(const3.toString());
+	}
+
+}

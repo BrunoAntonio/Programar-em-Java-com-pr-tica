@@ -1,0 +1,29 @@
+package application;
+
+import entities.gato;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		gato gato1=new gato();
+		gato gato2=new gato();
+		
+		gato1.setNome("Tom");
+		gato1.setRaca("Angorá");
+		gato1.setIdade(2);
+		gato1.setAlimentacao(gato2.getIdade());
+		gato1.setVacina(true);
+		
+		gato2.setNome("Félix");
+		gato2.setRaca("Siamês");
+		gato2.setIdade(8);
+		gato1.setAlimentacao(gato2.getIdade());
+		gato2.setVacina(false);
+		
+		System.out.print(gato1.toString());
+		System.out.print(gato2.toString());
+		
+	}
+
+}

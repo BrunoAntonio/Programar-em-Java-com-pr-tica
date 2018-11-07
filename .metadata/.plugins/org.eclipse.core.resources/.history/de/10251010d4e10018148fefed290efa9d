@@ -1,0 +1,21 @@
+package application;
+
+import entities.Aparelho;
+import entities.MaquinaLavar;
+import entities.Telefone;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Aparelho telefone= new Telefone();
+		
+		((Telefone)telefone).chamar();
+		
+		Aparelho[] aparelhos = {new Telefone(), new MaquinaLavar()};
+		
+		
+
+	}
+
+}

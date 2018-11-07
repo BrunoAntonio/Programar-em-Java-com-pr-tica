@@ -1,0 +1,15 @@
+package entities;
+
+public class Quadrado extends Poligono {
+
+	private double lado;
+
+	public Quadrado(double lado) {
+		super();
+		this.lado = lado;
+	}
+	
+	
+	
+	
+}

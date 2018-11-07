@@ -1,0 +1,19 @@
+package entities;
+
+import java.util.List;
+
+public class ListaFrutas {
+
+	private static final String[] FRUTAS= {"morango", "maça", "uva", "banana", "pera", "goiaba", "amora"};
+	private static final String[] FRUTAS2= {"abacaxi", "limão", "graviola", "banana", "mamão", "goiaba"};
+	
+	
+	private void imprimirLista(List<String> lista) {
+		for (String fruta : lista) {
+			System.out.print(fruta+" ");
+			System.out.println("Total fruta: "+lista.size());
+		}
+	}
+	
+	
+}

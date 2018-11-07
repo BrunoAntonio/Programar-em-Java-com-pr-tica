@@ -1,0 +1,17 @@
+package application;
+
+import entities.Pessoa;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		
+		Pessoa pessoa1 = new Pessoa();
+		
+		pessoa1.exebirInformacao("Maria");
+		pessoa1.exebirInformacao(22);
+		pessoa1.exebirInformacao(true);
+		}
+
+}

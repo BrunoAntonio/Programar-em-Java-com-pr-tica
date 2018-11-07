@@ -1,0 +1,13 @@
+package application;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String [][] cidades={{"São Paulo"},{"Barretos"},
+							{"Belo Horizonte"},{"Ouro Preto"},
+							{"Curitiba"},{"Londrina"}};
+
+	}
+
+}

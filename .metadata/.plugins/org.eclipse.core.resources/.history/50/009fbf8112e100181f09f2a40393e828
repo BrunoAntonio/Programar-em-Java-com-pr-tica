@@ -1,0 +1,13 @@
+package application;
+
+import entities.Secretaria;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Secretaria secretaria1 = new Secretaria("Joana", 30, false, Porto, 91, 600, 4040, true);
+
+	}
+
+}

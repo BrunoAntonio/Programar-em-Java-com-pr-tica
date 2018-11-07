@@ -1,0 +1,13 @@
+package application;
+
+import entities.Poligono;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Poligono [] poligono = new Poligono[3];
+
+	}
+
+}

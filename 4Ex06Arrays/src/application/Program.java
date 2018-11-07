@@ -1,0 +1,24 @@
+package application;
+
+import entities.Programador;
+
+public class Program {
+	public static void main(String[] args) {
+
+		Programador[]programador= new Programador[3];
+		
+		programador[0]=new Programador("Horácio","PHP",6250.0);
+		programador[1]=new Programador("Lúcia","Java",8725.0);
+		programador[2]=new Programador("Gilberto","c#",7809.0);
+	
+		
+	/*	 Programador[]programador= {new Programador("Horácio","PHP",6250.0),new Programador("Lúcia","Java",8725.0),new Programador("Gilberto","c#",7809.0) };
+	*/	
+		 for (Programador p: programador) {
+			 System.out.println(p);
+		 }
+		 
+
+	}
+
+}

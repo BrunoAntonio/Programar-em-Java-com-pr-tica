@@ -1,0 +1,33 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Número: ");
+		int dividendo = sc.nextInt();
+		int divisoes =0;
+
+		for (int divisor=1; divisor<=dividendo; divisor++) {
+			if(dividendo %divisor==0) {
+				divisor++;
+			}
+			if(divisoes<=2) {
+				System.out.println(dividendo+" é primo. divisivel por "+divisoes+" números.");
+			}
+			else {
+				System.out.println(dividendo+" não é primo. divisivel por "+divisoes+" números.");
+			}
+		}
+
+		sc.close();
+
+	}
+
+}

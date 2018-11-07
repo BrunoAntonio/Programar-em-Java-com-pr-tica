@@ -1,0 +1,38 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		System.out.println("---ArrayList--------------");
+		
+		List<String> cursos = new ArrayList<>();
+		
+		cursos.add("PHP");
+		cursos.add("PHP");
+		cursos.add("Linux");
+		cursos.add("Java");
+		
+		for(String c:cursos) {
+			System.out.println("Curso: "+c);
+		}
+		System.out.println(cursos.get(0));
+		
+		
+		System.out.println("---TreeSet--------------");
+		/* TreeSet não tem ordenação  
+		 * Não permite duplicações
+		 */
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

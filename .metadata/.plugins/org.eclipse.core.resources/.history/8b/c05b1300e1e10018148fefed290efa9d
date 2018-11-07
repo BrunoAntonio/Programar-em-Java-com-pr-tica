@@ -1,0 +1,48 @@
+package entities;
+
+public class JavaProgrammer extends Curso implements Vendavel {
+
+	private String versao;
+	
+	
+	public JavaProgrammer() {
+		super();
+	}
+
+	public JavaProgrammer(String treino, int cargaHoraria, String versao) {
+		super(treino, cargaHoraria);
+		this.versao = versao;
+	}
+
+
+	public String getVersao() {
+		return versao;
+	}
+
+	public void setVersao(String versao) {
+		this.versao = versao;
+	}
+
+	
+	
+	@Override
+	public double preco(int numb) {
+		if (numb == 1) {
+			return 780.0;
+		} else {
+			return 1320.00;
+		}
+	}
+
+	@Override
+	public String toString() {
+		return super.toString()
+				+"Versão: "+getVersao();
+	}
+	
+	
+	
+
+}
+
+

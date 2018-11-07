@@ -1,0 +1,46 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String [] frutas= {"morango", "maça", "uva", "banana", "pera", "goiaba", "amora"};
+		String[] frutas2= {"abacaxi", "limão", "graviola", "banana", "mamão", "goiaba"};
+		
+		Set<String>listaFrutas=new HashSet<>();
+		listaFrutas=(Set<String>) Arrays.asList(frutas);
+		
+		List<String>listaFrutas2=new ArrayList<>();
+		listaFrutas2=Arrays.asList(frutas2);
+
+		for(String f: listaFrutas) {
+			System.out.print(f.toUpperCase()+ " " );
+		}
+		System.out.println();
+		System.out.println("Total de Frutas: "+listaFrutas.size());
+		
+		for(String f: listaFrutas2) {
+			System.out.print(f.toUpperCase()+ " " );
+		}
+		System.out.println();
+		System.out.println("Total de Frutas: "+listaFrutas2.size());
+		
+		List<String>listaFrutas3=new ArrayList<>(listaFrutas);
+		listaFrutas3.addAll(listaFrutas2);
+		
+		for(String f: listaFrutas3) {
+			System.out.print(f.toUpperCase()+ " " );
+		}
+		System.out.println();
+		System.out.println("Total de Frutas: "+listaFrutas3.size());
+		
+	}
+
+}

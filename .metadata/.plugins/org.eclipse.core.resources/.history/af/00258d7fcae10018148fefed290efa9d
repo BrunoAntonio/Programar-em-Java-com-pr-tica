@@ -1,0 +1,14 @@
+package entities;
+
+public abstract class Poligono {
+
+
+	public Poligono() {
+	}
+	
+	
+
+	public abstract double calculoArea();
+	
+	
+}

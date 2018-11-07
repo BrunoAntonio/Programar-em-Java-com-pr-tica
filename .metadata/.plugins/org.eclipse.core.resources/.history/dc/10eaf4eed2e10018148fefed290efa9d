@@ -1,0 +1,11 @@
+package entities;
+
+public class Telefone implements Aparelho {
+
+	public void desligar() {
+		System.out.println("A desligar o telefone...");
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package entities;
+
+public class Secretaria extends Funcionario{
+
+	private int nrSrt;
+	private boolean linguaInglesa;
+	
+	public Secretaria(String nome, int idade, boolean estadoCivil, String endereco, String telefone, double salario,
+			int nrSrt, boolean linguaInglesa) {
+		super(nome, idade, estadoCivil, endereco, telefone, salario);
+		this.nrSrt = nrSrt;
+		this.linguaInglesa = linguaInglesa;
+	}
+	
+	
+}

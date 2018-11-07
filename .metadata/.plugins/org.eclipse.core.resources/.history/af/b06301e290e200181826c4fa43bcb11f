@@ -1,0 +1,25 @@
+package application;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		System.out.println("---TreeSet--------------");
+		
+		Set<String> cursos = new TreeSet<>();
+		
+		cursos.add("PHP");
+		cursos.add("PHP");
+		cursos.add("Linux");
+		cursos.add("Java");
+		
+		for(String c:cursos) {
+			System.out.println("Curso: "+c);
+		}
+		
+	}
+
+}

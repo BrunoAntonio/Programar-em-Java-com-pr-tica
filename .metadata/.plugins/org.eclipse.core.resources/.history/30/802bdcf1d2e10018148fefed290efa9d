@@ -1,0 +1,14 @@
+package entities;
+
+public class MaquinaLavar implements Aparelho {
+
+	public void desligar() {
+		System.out.println("A ligar a maquina de lavar...");
+	}
+	
+	public void desligar() {
+		System.out.println("A desligar a maquina de lavar...");
+	}
+	
+	
+}

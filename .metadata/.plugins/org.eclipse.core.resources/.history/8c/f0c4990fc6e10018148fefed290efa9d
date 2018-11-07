@@ -1,0 +1,20 @@
+package entities;
+
+public class Triangulo extends Poligono {
+
+	private double altura;
+	private double base;
+	
+	private Poligono [] poligono=new Poligono[3];
+	
+	
+	public Triangulo(double altura, double base) {
+		super();
+		this.altura = altura;
+		this.base = base;
+	}
+	
+	
+	
+	
+}

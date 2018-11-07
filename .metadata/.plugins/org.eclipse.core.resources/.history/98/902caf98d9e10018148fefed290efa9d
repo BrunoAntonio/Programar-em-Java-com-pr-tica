@@ -1,0 +1,31 @@
+package application;
+
+import entities.Aparelho;
+import entities.MaquinaLavar;
+import entities.Telefone;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Aparelho telefone= new Telefone();
+		((Telefone)telefone).chamar();
+		
+		
+		System.out.println("-----------------------------------");
+		
+		Aparelho[] aparelhos = {new Telefone(), new MaquinaLavar()};
+		
+		for(Aparelho a: aparelhos) {
+			a.desligar();
+		}
+		
+		System.out.println("-----------------------------------");
+		
+		telefone.temporizador(10);
+		Aparelho.desligarTudo(aparelhos);
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package entities;
+
+public class Compra {
+
+	private String nomeCliente;
+	private double valorCompra;
+	private double valorAPagar;
+	
+	
+	
+	
+}

@@ -1,0 +1,17 @@
+package entities;
+
+public class Redes extends Curso implements Vendavel{
+
+	
+	@Override
+	public double preco(int numb) {
+		if (numb == 1) {
+			return 620.0;
+		} else {
+			return 1190.00;
+		}
+	}
+	
+	
+	
+}

@@ -1,0 +1,15 @@
+package application;
+
+import entities.Fornecedor;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Fornecedor const1 =new Fornecedor("Ana", "91090", "Porto","Couves");
+		
+		
+		System.out.println(const1.toString());
+	}
+
+}

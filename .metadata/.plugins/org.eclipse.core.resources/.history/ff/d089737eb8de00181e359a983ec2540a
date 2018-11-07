@@ -1,0 +1,43 @@
+package entities;
+
+public class Vendas {
+
+	
+	// public static final double PREMIO_EQUIPA=100;  //constante static
+	public static double premioEquipa=100; //variavel static
+	private double premioIndividual=200;
+	private String name;
+	
+	public double getPremioEquipa() {
+		return premioEquipa;
+	}
+	public void setPremioEquipa(double premioEquipa) {
+		Vendas.premioEquipa += premioEquipa;
+	}
+	public double getPremioIndividual() {
+		return premioIndividual;
+	}
+	public void setPremioIndividual(double premioIndividual) {
+		this.premioIndividual = premioIndividual;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	@Override
+	public String toString() {
+		return "nome: "+ getName()+ "\n"
+				+ "premio individual: "+ getPremioIndividual() + "\n"
+				+ "premio equipa: "+ getPremioEquipa()+ "\n";
+				
+	}
+	
+	
+	
+	
+	
+	
+	
+}

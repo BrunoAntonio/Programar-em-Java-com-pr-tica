@@ -1,0 +1,19 @@
+package application;
+
+import entities.gato;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		gato cao=new gato();
+		
+		cao.setNome("Bobi");
+		cao.setRaca("Pastor Alemão");
+		cao.setIdade(2);
+		
+		System.out.print(cao.toString());
+		
+	}
+
+}

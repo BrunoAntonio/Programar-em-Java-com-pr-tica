@@ -1,0 +1,17 @@
+package application;
+
+import entities.Motorista;
+import entities.Secretaria;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Secretaria secretaria1 = new Secretaria("Joana", 30, false, "porto", "91", 600, 4040, true);
+		Motorista motorista1 = new Motorista("Antonio", 35, true, "porto", "92", 800, 1010, 5);
+		
+		
+		
+	}
+
+}

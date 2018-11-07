@@ -1,0 +1,23 @@
+package entities;
+
+public class Programador extends Funcionario {
+
+	private String linguagem;
+
+	public Programador() {
+	}
+
+	public Programador(String linguagem) {
+		this.linguagem = linguagem;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return super.toString() 
+				+ "nrCnh=" + nrCnh + "\n" 
+				+ "Tempo de experiencia=" + tempoDeExperiencia + "\n";
+	}
+
+}

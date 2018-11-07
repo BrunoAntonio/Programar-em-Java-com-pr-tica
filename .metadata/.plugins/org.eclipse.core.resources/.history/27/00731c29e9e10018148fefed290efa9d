@@ -1,0 +1,14 @@
+package entities;
+
+public interface Vendavel {
+
+	public final static String ESCOLA="RC Treino";
+	
+	public double preco(int numb) ;
+	
+	public static void info() {
+		
+	}
+	
+	
+}

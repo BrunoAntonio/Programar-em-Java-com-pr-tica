@@ -1,0 +1,26 @@
+package entities;
+
+public abstract class Funcionario {
+
+	private String nome;
+	private int idade;
+	protected double salario;
+	private Endereco endereco;
+	
+	
+
+	
+	@Override
+	public String toString() {
+		return "Nome=" + nome +"\n"
+				+ "Idade=" + idade+"\n"
+				+ "Estado Civil=" + estadoCivil +"\n"
+				+ "Endereco="+ endereco +"\n"
+				+ "Telefone=" + telefone +"\n"
+				+ "Salario=" + String.format("%.2f", getSalario())+"\n";
+	}
+	
+	
+	
+	
+}

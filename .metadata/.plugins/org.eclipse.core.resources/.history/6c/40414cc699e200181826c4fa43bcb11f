@@ -1,0 +1,44 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String [] frutas= {"morango", "maça", "uva", "banana", "pera", "goiaba", "amora"};
+		String[] frutas2= {"abacaxi", "limão", "graviola", "banana", "mamão", "goiaba"};
+		
+		List<String>listaFrutas=new ArrayList<>();
+		listaFrutas=Arrays.asList(frutas);
+		
+		List<String>listaFrutas2=new ArrayList<>Arrays.asList();
+		listaFrutas2=Arrays.asList(frutas2);
+
+		for(String f: listaFrutas) {
+			System.out.print(f.toUpperCase()+ " " );
+		}
+		System.out.println();
+		System.out.println("Total de Frutas: "+listaFrutas.size());
+		
+		for(String f: listaFrutas2) {
+			System.out.print(f.toUpperCase()+ " " );
+		}
+		System.out.println();
+		System.out.println("Total de Frutas: "+listaFrutas2.size());
+		
+		List<String>listaFrutas3=new ArrayList<>(listaFrutas);
+		listaFrutas3.addAll(listaFrutas2);
+		
+		for(String f: listaFrutas3) {
+			System.out.print(f.toUpperCase()+ " " );
+		}
+		System.out.println();
+		System.out.println("Total de Frutas: "+listaFrutas2.size());
+		
+	}
+
+}

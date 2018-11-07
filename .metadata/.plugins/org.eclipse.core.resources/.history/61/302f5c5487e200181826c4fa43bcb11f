@@ -1,0 +1,13 @@
+package application;
+
+import entities.Calculo;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculo calculo =(a,b)->a+b;
+		System.out.println(calculo.calcular(2, 4))
+	}
+
+}

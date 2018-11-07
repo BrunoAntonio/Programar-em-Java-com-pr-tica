@@ -1,0 +1,22 @@
+package application;
+
+import entities.Calculo;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		double a=5;
+		double b=4;
+		
+		Calculo calculo=new Calculo();
+		
+		calculo.somar(a, b);
+		calculo.dividir(a, b);
+		calculo.multiplicar(a, b);
+		calculo.subtrair(a, b);
+		
+		
+		}
+
+}

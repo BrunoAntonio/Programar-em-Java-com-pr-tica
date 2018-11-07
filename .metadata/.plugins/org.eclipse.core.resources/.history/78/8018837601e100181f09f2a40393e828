@@ -1,0 +1,15 @@
+package application;
+
+import entities.Numero;
+
+public class Program {
+	public static void main(String[] args) {
+		
+	Numero[] numb = new Numero[10];
+		
+	for (int i = 1; i <=numb.length; i++) {
+		i +=1;
+	}
+	}
+	
+}

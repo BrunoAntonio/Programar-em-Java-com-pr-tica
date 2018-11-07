@@ -1,0 +1,21 @@
+package application;
+
+public class Program {
+	public static void main(String[] args) {
+		
+		int tamanho=10;
+		
+		if()
+		
+		System.out.println(numeros);
+	}
+	
+	public static int somar (int ...inteiros) {
+		int resultado=0;
+		for(int i=0;i<inteiros.length;i++) {
+			resultado +=inteiros[i];
+		}
+		return resultado;
+	}
+	
+}

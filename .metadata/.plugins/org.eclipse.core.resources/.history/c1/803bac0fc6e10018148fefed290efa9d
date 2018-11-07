@@ -1,0 +1,10 @@
+package entities;
+
+public class Quadrado extends Poligono {
+
+	private double lado;
+	
+	
+	
+	
+}

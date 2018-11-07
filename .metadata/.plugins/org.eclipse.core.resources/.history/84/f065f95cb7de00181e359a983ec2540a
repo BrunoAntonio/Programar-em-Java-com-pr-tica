@@ -1,0 +1,26 @@
+package application;
+
+import entities.Vendas;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		
+		Vendas vendedor1 = new Vendas();
+		Vendas vendedor2 = new Vendas();
+		
+		vendedor1.setName("A");
+		vendedor1.setPremioIndividual(200);
+		vendedor1.setPremioEquipa(400);
+		
+		vendedor2.setName("B");
+		vendedor2.setPremioIndividual(200);
+		vendedor2.setPremioEquipa(400);
+		
+		System.out.println(vendedor1.toString());
+		System.out.println(vendedor2.toString());
+		
+		}
+
+}

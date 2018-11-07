@@ -1,0 +1,24 @@
+package application;
+
+import entities.Pessoa;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		
+		Pessoa p1 = new Pessoa("Sara","Porto");
+		Pessoa p2 = new Pessoa("Sara","Porto");
+		
+		if (p1.equals(p2)) {
+			System.out.println("Mesmo objecto");
+		}else{
+			System.out.println("Objecto diferente");
+		}
+		
+		System.out.println("HasCode p1: "+p1.hashCode());
+		System.out.println("HasCode p2: "+p2.hashCode());
+
+	}
+
+}

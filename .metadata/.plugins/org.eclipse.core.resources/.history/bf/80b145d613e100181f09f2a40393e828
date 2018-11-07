@@ -1,0 +1,22 @@
+package application;
+
+import entities.Motorista;
+import entities.Secretaria;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Secretaria s1 = new Secretaria("Joana", 30, false, "Porto", "91", 600, 4040, true);
+		Motorista m1 = new Motorista("Antonio", 35, true, "Porto", "92", 800, 1010, 5);
+		
+		Secretaria s2 = new Secretaria();
+		
+		s2.setNome("Sara");
+		s2.setIdade(31);
+		
+		System.out.println("Nome: "+s1.getNome()+", Salario: "+s1.getSalario());
+		
+	}
+
+}

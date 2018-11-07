@@ -1,0 +1,30 @@
+package entities;
+
+public class Compra {
+
+	private String nomeCliente;
+	private double valorCompra;
+	private double valorAPagar;
+	public String getNomeCliente() {
+		return nomeCliente;
+	}
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+	public double getValorCompra() {
+		return valorCompra;
+	}
+	public void setValorCompra(double valorCompra) {
+		this.valorCompra = valorCompra;
+	}
+	public double getValorAPagar() {
+		return valorAPagar;
+	}
+	public void setValorAPagar(double valorAPagar) {
+		this.valorAPagar = valorAPagar;
+	}
+	
+	
+	
+	
+}

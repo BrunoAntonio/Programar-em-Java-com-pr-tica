@@ -1,0 +1,9 @@
+package entities;
+
+public class ListaFrutas {
+
+	public static final String FRUTAS="e"
+	
+	
+	
+}

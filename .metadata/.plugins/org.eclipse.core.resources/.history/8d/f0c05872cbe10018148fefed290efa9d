@@ -1,0 +1,18 @@
+package entities;
+
+public abstract class Poligono {
+
+	private double area;
+	
+	public Poligono() {
+	}
+	
+	public Poligono(double area) {
+		super();
+		this.area = area;
+	}
+
+	public abstract double calculoArea();
+	
+	
+}

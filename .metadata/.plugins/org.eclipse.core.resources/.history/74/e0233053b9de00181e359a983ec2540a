@@ -1,0 +1,24 @@
+package entities;
+
+public class Pessoa {
+
+	void exebirInformacao (String name) {
+		System.out.println("O meu nome é: "+nome);
+	}
+
+	void exebirInformacao (int idade) {
+		System.out.println("A minha idade é: "+idade);
+	}
+	
+	void exebirInformacao (boolean estadoCivil) {
+		if (estadoCivil ==true) {
+			System.out.println("Casaso");
+		}else {
+			System.out.println("Solteiro");
+		}
+	}
+	
+	
+	
+	
+}

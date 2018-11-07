@@ -1,0 +1,16 @@
+package entities;
+
+public class JavaProgrammer extends Curso implements Vendavel {
+
+	@Override
+	public void preco(int numb) {
+		if(numb ==1) {
+			System.out.println("");
+		}
+		
+	}
+
+	
+	
+	
+}

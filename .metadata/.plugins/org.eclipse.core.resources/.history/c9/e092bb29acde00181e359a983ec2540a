@@ -1,0 +1,31 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Compra;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner (System.in);
+		
+		Compra compra = new Compra();
+		
+		System.out.print("Nome: ");
+		String nome=sc.next();
+		System.out.print("Valor compra ");
+		double valorCompra=sc.nextDouble();
+		System.out.print("Valor a pagar ");
+		double valorPagar=sc.nextDouble();
+		
+		compra.getValorAPagar(compra.getValorCompra());
+		
+		
+		sc.close();
+
+		}
+
+}

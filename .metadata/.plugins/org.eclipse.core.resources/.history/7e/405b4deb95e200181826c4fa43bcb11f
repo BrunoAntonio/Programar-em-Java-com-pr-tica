@@ -1,0 +1,20 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.ListaFrutas;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		List<ListaFrutas>listaFrutas=new ArrayList<>();
+
+		for(ListaFrutas f: listaFrutas) {
+			System.out.println(f);
+		}
+		
+	}
+
+}

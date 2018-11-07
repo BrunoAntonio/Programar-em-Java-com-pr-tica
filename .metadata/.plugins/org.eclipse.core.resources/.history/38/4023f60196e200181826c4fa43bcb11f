@@ -1,0 +1,24 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import entities.ListaFrutas;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		public static final String[] FRUTAS= {"morango", "maça", "uva", "banana", "pera", "goiaba", "amora"};
+		
+		
+		List<String>listaFrutas=new ArrayList<>(Arrays.asList(FRUTAS));
+
+		for(ListaFrutas f: listaFrutas) {
+			System.out.println(f);
+		}
+		
+	}
+
+}

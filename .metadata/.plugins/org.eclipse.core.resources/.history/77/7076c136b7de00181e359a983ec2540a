@@ -1,0 +1,34 @@
+package entities;
+
+public class Vendas {
+
+	private double premioEquipa;
+	private double premioIndividual;
+	private String name;
+	
+	public double getPremioEquipa() {
+		return premioEquipa;
+	}
+	public void setPremioEquipa(double premioEquipa) {
+		this.premioEquipa += premioEquipa;
+	}
+	public double getPremioIndividual() {
+		return premioIndividual;
+	}
+	public void setPremioIndividual(double premioIndividual) {
+		this.premioIndividual = premioIndividual;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

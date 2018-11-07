@@ -1,0 +1,23 @@
+package entities;
+
+public class Funcionario {
+
+	private String nome;
+	private int idade;
+	private boolean estadoCivil;
+	private String endereco;
+	private String telefone;
+	private double salario;
+	
+	public Funcionario(String nome, int idade, boolean estadoCivil, String endereco, String telefone, double salario) {
+		this.nome = nome;
+		this.idade = idade;
+		this.estadoCivil = estadoCivil;
+		this.endereco = endereco;
+		this.telefone = telefone;
+		this.salario = salario;
+	}
+	
+	
+	
+}

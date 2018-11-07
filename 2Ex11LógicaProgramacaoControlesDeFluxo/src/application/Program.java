@@ -1,0 +1,72 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		double livro=0;
+		double telemovel=0;
+		double tablet=0;
+		double jogo=0;
+		double electronica=0;
+		double outroProduto=0;
+		double precoTotal=0;
+		
+		int quantidade=0;
+		int codigoCategoria=1;
+		
+		while (codigoCategoria !=0) {
+			
+			System.out.print("Número da categoria (1-6) (0 para parar): ");
+			codigoCategoria=sc.nextInt();
+			
+			if (codigoCategoria>=1 && codigoCategoria<=6) {
+				System.out.print("Quantidade vendida: ");
+				quantidade=sc.nextInt();
+				
+				switch(codigoCategoria) {
+				case 1:
+					livro += quantidade*3.5;
+					break;
+				case 2:
+					telemovel +=quantidade*4.5;
+					break;
+				case 3:
+					tablet +=quantidade*5.5;
+					break;
+				case 4:
+					jogo +=quantidade*6.5;
+					break;
+				case 5:
+					electronica +=quantidade*7.5;
+					break;
+				default:
+					outroProduto +=quantidade*10;
+				}
+			}
+			else if (codigoCategoria !=0)
+				System.out.println("Número da categoria (1-6) (0 para parar): ");	
+		}
+		
+		precoTotal=livro+telemovel+tablet+jogo+electronica+outroProduto;
+	
+		System.out.println();	
+		System.out.printf("Livros: $%.2f%n", livro);	
+		System.out.printf("Telemoveis: $%.2f%n", telemovel);
+		System.out.printf("Tablets: $%.2f%n", tablet);
+		System.out.printf("Jogos: $%.2f%n", jogo);
+		System.out.printf("Electronica: $%.2f%n", electronica);
+		System.out.printf("Outros produtos: $%.2f%n", outroProduto);
+		System.out.println();	
+		System.out.printf("Preço total: $%.2f%n", precoTotal);
+		
+		
+	sc.close();
+	}
+}

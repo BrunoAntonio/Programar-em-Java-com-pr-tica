@@ -1,0 +1,9 @@
+package entities;
+
+public class Curso {
+
+	private String Treino;
+	private int cargaHoraria;
+	
+	
+}

@@ -1,0 +1,19 @@
+package application;
+
+public class Program {
+
+		static double somar (double a, double b, double c) {
+			return a+b+c;
+		}
+	
+		static double somar(double[]numeros) {
+			double resultado=0;
+			for(double d: numeros) {
+				resultado +=d;
+			}
+			return resultado;
+		}
+
+
+
+}

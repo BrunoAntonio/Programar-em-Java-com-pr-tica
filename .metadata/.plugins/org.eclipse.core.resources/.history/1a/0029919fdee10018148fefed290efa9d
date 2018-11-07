@@ -1,0 +1,14 @@
+package application;
+
+import entities.Curso;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Curso java = new Curso();
+		
+
+	}
+
+}

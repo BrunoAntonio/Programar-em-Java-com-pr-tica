@@ -1,0 +1,26 @@
+package application;
+
+import entities.Funcionario;
+import entities.Motorista;
+import entities.Secretaria;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Secretaria s1 = new Secretaria("Joana", 30, false, "Porto", "91", 600, 4040, true);
+		Motorista m1 = new Motorista("Antonio", 35, true, "Porto", "92", 800, 1010, 5);
+		
+		Secretaria s2 = new Secretaria("Sara",29,false,"Gaia","91",900,3030,true);
+		Motorista m2 = new Motorista("Roberto", 45, true, "Gaia", "92", 900, 1020, 15);
+		
+		
+		System.out.println("Nome: "+s1.getNome()+", Salario: "+s1.getSalario());
+		System.out.println("Nome: "+m1.getNome()+", Salario: "+m1.getSalario());
+		System.out.println("Nome: "+s2.getNome()+", Salario: "+s2.getSalario());
+		System.out.println("Nome: "+f1.getNome());
+		System.out.println();
+		System.out.println(m1.toString());
+	}
+
+}

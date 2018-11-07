@@ -1,0 +1,28 @@
+package entities;
+
+public abstract class Poligono {
+
+	private double area;
+	
+
+	public Poligono() {
+		super();
+	}
+
+	public Poligono(String area) {
+		this.area = area;
+	}
+	
+
+	public String getArea() {
+		return area;
+	}
+
+	public void setArea(String area) {
+		this.area = area;
+	}
+
+	public abstract double calculoArea();
+	
+	
+}

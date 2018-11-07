@@ -1,0 +1,13 @@
+package entities;
+
+public class ListaFrutas {
+
+	public static final String[] FRUTAS= {"morango", "maça", "uva", "banana", "pera", "goiaba", "amora"};
+	public static final String[] FRUTAS2= {"abacaxi", "limão", "graviola", "banana", "mamão", "goiaba"};
+	
+	private void imprimirLista() {
+		
+	}
+	
+	
+}

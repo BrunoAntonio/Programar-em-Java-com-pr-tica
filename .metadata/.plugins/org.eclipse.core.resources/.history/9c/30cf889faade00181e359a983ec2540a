@@ -1,0 +1,35 @@
+package entities;
+
+public class Compra {
+
+	private String nomeCliente;
+	private double valorCompra;
+	private double valorAPagar;
+	public String getNomeCliente() {
+		return nomeCliente;
+	}
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+	public double getValorCompra() {
+		return valorCompra;
+	}
+	public void setValorCompra(double valorCompra) {
+		if (valorCompra>=1000) {
+			this.valorCompra = valorCompra;
+		} else {
+			System.out.println("O valor mínimo de compra é R$ 1.000,00");
+		}
+	
+	}
+	public double getValorAPagar() {
+		return valorAPagar;
+	}
+	public void setValorAPagar(double valorAPagar) {
+		this.valorAPagar = valorAPagar;
+	}
+	
+	
+	
+	
+}

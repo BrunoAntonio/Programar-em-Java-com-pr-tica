@@ -1,0 +1,22 @@
+package application;
+
+import entities.Poligono;
+import entities.Quadrado;
+import entities.Triangulo;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Poligono [] poligono = new Poligono[4];
+		Triangulo t1= new Triangulo(15,20);
+		Triangulo t2= new Triangulo(7,4);
+		Quadrado q1 = new Quadrado(10);
+		Quadrado q2 = new Quadrado(3);
+		
+		poligono= {t1,t2,q1,q2};
+		
+		
+	}
+
+}

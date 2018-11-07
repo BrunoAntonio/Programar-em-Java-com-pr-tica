@@ -1,0 +1,27 @@
+package application;
+
+import entities.Programador;
+import entities.Endereco;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Endereco e1 = new Endereco("Porto", 2,"Sé");
+		Programador m1 = new Programador("Antonio", 35,800,e1,"Java");
+
+		Endereco s2 = new Endereco();
+		
+		s2.setNome("Sara");
+		s2.setSalario(650);
+		s2.reajustarSalario();
+		m1.reajustarSalario();
+		
+		System.out.println("Nome: "+s1.getNome()+", Salario: "+s1.getSalario());
+		System.out.println("Nome: "+m1.getNome()+", Salario: "+m1.getSalario());
+		System.out.println("Nome: "+s2.getNome()+", Salario: "+s2.getSalario());
+		System.out.println();
+		System.out.println(m1.toString());
+	}
+
+}
